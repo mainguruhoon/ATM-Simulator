@@ -65,7 +65,7 @@ void showHistory() {
         }
     }
 }
-
+// Main function
 int main() {
     string enteredPin;
     int attempts = 0;
@@ -93,7 +93,7 @@ int main() {
     do {
         displayMenu();
         cin >> choice;
-
+// Handle invalid input
         switch(choice) {
             case 1: checkBalance(); break;
             case 2: depositMoney(); break;
